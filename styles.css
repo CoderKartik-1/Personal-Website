@@ -1,0 +1,158 @@
+
+body{
+    margin: 0;
+    /* this text-align: center will align only if width parameter is not set up */
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: #405440;
+}
+
+
+.pro{
+    text-decoration: underline;
+}
+
+.top-cloud{
+    position:absolute;
+    right: 20%;
+    top:50px;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left:20%;
+}
+
+.top-container{
+    background-color: #E4F9F5;
+    position: relative;
+    padding-top:6.25rem;
+    
+}
+
+.init-desc{
+    width:40%;
+    margin: 0 auto 1.5em auto;
+    font-weight:bold;
+    line-height: 2;
+}
+
+.profile-img{
+    margin-top: 1em;
+    border-radius: 5%;
+    height: 8%;
+    width: 12%;
+}
+
+.skill-img1{
+    width: 25%;
+    float: left;
+    margin-right: 10%;
+    height: 100%;
+}
+
+.skill-img2{
+    width: 30%;
+    float: right;
+    margin-left: 10%;
+    height: 100%;
+    border-radius: 10%; 
+}
+
+.skills{
+    margin-bottom: 4%;
+}
+
+hr{
+    width: 20%;
+    margin: 0 auto 0 auto;
+    border-style: dotted;
+    color:#66BFbf;
+    border-width: 0.2em;
+    border-bottom: none;
+}
+
+h1{
+    /* here the width parameter is set up, along with margin to center the block content */
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 500%;
+    font-weight:900;
+    color: #66BFbf;
+    font-weight: bolder;
+    line-height: 1;
+}
+
+h2{
+    color:#66BFbf;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+}
+
+h3{
+    color: #11999e;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.programmer{
+    margin-top: 0;
+    color: #66bfbf;
+    font-weight:normal;
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.skill-row{
+    margin: 4rem auto 4rem auto;
+    width:50%;
+    text-align: left;
+    line-height: 2;
+    font-weight: bold;
+}
+
+.progress{
+    margin: 1% auto;
+}
+
+.contact-me-para{
+    line-height: 2;
+}
+
+.btn{
+    background-color: #11999e;
+    padding: 1% 2%;
+    border-radius: 10%;
+    color:white;
+    font-size: medium;
+    margin-bottom: 5%;
+}
+
+.btn:hover{
+    background-color: #75dddd;
+}
+
+.bottom-container{
+    background-color: #75dddd;
+    margin-bottom: 0;
+    padding-top: 1%;
+}
+
+.copyright-info{
+    margin-bottom: 0;
+    color: #eaf6f6;
+    font-weight: bolder;
+    font-size: 0.75rem;
+}
+
+.footer-link{
+    margin: 0 5%;
+    color: #136468;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: large;
+}
+
+.footer-link:hover{
+    color: #eaf6f6;
+}
+
